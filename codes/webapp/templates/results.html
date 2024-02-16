@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>You submitted the following data:</p>
+<table>
+<tr><td>First room:</td><td>{{ the_phrase }}</td></tr>
+<tr><td>Number of cleanings:</td><td>{{ the_letters }}</td></tr>
+<tr><td>List of rooms:</td><td>{{ the_rooms }}</td></tr>
+</table>
+
+<p>When "{{the_phrase}}" is the first room, the following
+results are returned:</p>
+<h2>The sсhedule:</h2>
+{% for para in the_results %}
+<h3>{{para}}</h3>
+{% endfor %}
+{% endblock %}

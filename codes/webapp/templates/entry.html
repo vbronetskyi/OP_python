@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/search4'>
+<table>
+<p>Use this form to submit a schedule request:</p>
+<tr><td>First room:</td><td><input name='phrase' type='TEXT' value='903'></td></tr>
+<tr><td>Number of cleanings:</td><td><input name='letters' type='TEXT' value='6'></td></tr>
+<tr><td>List of rooms:</td><td><input name='rooms' type='TEXT' value='903,904,905,906,908,909,910,911,912,913,914,915'></td></tr>
+</table>
+<p>When you're ready, click this button:</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
