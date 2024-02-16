@@ -1,0 +1,4 @@
+{"features": [{"type":"Feature","properties":{"FIPS":"AC","ISO2":"AG","ISO3":"ATG","UN":28,"NAME":"Antigua and Barbuda","AREA":44,"POP2005":83039,"REGION":19,"SUBREGION":29,"LON":-61.783,"LAT":17.078}},
+  {"type":"Feature","properties":{"FIPS":"AM","ISO2":"AM","ISO3":"ARM","UN":51,"NAME":"Armenia","AREA":2820,"POP2005":3017661,"REGION":142,"SUBREGION":145,"LON":44.563,"LAT":40.534}},
+{"type":"Feature","properties":{"FIPS":"AL","ISO2":"AL","ISO3":"ALB","UN":8,"NAME":"Albania","AREA":2740,"POP2005":3153731,"REGION":150,"SUBREGION":39,"LON":20.068,"LAT":41.143}},
+{"type":"Feature","properties":{"FIPS":"AJ","ISO2":"AZ","ISO3":"AZE","UN":31,"NAME":"Azerbaijan","AREA":8260,"POP2005":8352021,"REGION":142,"SUBREGION":145,"LON":47.395,"LAT":40.43}}]}
